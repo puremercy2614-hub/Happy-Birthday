@@ -55,8 +55,9 @@
             return false;
         }
 
-        var width = canvas.width();
-        var height = canvas.height();        
+        // FIX: Use fixed dimensions to avoid 'undefined' error during initialization
+        var width = 1100;
+        var height = 680;        
         canvas.attr("width", width);
         canvas.attr("height", height);
 
