@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../img2.png');
+  /* --- FIX 1: Changed .png to .jpg to match the uploaded file --- */
+  background-image: url('../img2.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 14px;
@@ -82,5 +83,4 @@ a {
   margin-top:450px;
   font-size: 25px;
   font-family: monospace;
-
 }
