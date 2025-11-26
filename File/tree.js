@@ -1,7 +1,6 @@
 /*
 * tree.js
-* This code defines the Tree, Seed, Branch, Bloom, and Flower classes for the canvas animation.
-* This file was missing, causing the 'Tree is not defined' error.
+* Defines the Tree, Seed, Branch, Bloom, and Flower classes for the canvas animation.
 */
 
 var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
