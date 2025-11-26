@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* --- FIX 1: Changed .png to .jpg to match the uploaded file --- */
+  /* FIX: Changed .png to .jpg to match the uploaded file */
   background-image: url('../img2.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
